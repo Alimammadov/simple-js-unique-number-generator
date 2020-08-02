@@ -15,10 +15,8 @@ let d = alphabet[Math.floor(Math.random() * alphabet.length)];
 let f= numbers[Math.floor(Math.random() * numbers.length)];
 let g = alphabet[Math.floor(Math.random() * alphabet.length)];
 
-
-console.log(a+b+c+d+f+g)
-
 uid = a+b+c+d+f+g;
 
 document.getElementById("orderId").innerHTML = "Order number: " + uid;
+console.log("Order number: " + uid)
 
